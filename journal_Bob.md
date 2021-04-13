@@ -19,3 +19,19 @@ const filterStr = arr.filter((num) => num > 0)
 
 Task three
 ==========
+
+```
+let likes = 10
+let dislikes = 5
+
+// Function passes the variables then subtracts one from the other.
+
+function calcLikes(likes, dislikes) {
+    return likes - dislikes
+}
+
+
+let answer = calcLikes(likes, dislikes)
+
+// Returns 5
+```
