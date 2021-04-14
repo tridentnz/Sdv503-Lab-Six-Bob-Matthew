@@ -29,7 +29,7 @@ function addOdd(arr) {
     return arr.reduce((a, b) => a + b, 0);
 }
 ```
-addOdd() Is a Ternary function that reduces an array to the sum of its parts. 
+addOdd() Is a function with a Ternary operator that reduces an array to the sum of its parts. 
 We had some trouble with the syntax of the accumulator and reducer but worked it out by working through (Array.Prototype.Reduce() - JavaScript | MDN, n.d.) reduce() MDN.
 
 ```
@@ -40,7 +40,7 @@ if (isNumber(input) && isOdd(input)) { // If data validation functions return tr
 }
 else console.log("Please input odd numbers.");
 ```
-This function passes the error handling functions as parameters to check the input of the array and stops invalid input.
+This if / else statement passes the error handling functions as parameters to check the input of the array and stops invalid input.
 
 Task two
 ========
