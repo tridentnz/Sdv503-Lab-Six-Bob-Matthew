@@ -64,12 +64,12 @@ Task three
 ==========
 
 Driver Bob : Navigator Matt
-
-
+We created an object to be passed to the function 'calcLike' which contains the amount of likes and dislikes. Our function returns rating.likes - rating.dislikes which is stored in a variable called answer.
 ```
-let likes = 10
-let dislikes = 5
-
+let rating = {
+    likes: 10,
+    dislikes: 5
+}
 // Function passes the variables then subtracts one from the other.
 
 function calcLikes(likes, dislikes) {
@@ -77,7 +77,7 @@ function calcLikes(likes, dislikes) {
 }
 
 
-let answer = calcLikes(likes, dislikes)
+let answer = calcLikes(rating.likes, rating.dislikes)
 
 // Returns 5
 ```
@@ -87,8 +87,8 @@ References
 ==========
 
 
-Array.prototype.filter()âÎvaScript | MDN. (n.d.). Retrieved 13 April 2021, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+Array.prototype.filter()ï¿½ï¿½vaScript | MDN. (n.d.). Retrieved 13 April 2021, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
-Array.prototype.reduce()âÎvaScript | MDN. (n.d.). Retrieved 7 April 2021, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+Array.prototype.reduce()ï¿½ï¿½vaScript | MDN. (n.d.). Retrieved 7 April 2021, from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
 
