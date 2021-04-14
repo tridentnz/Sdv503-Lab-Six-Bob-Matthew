@@ -45,7 +45,7 @@ Task two
 ========
 Driver Matt : Navigator Bob
 
-Bob wanted me to declare an array with strings and numbers. Then we learnt how to use the (Array.Prototype.Filter() - JavaScript | MDN, n.d.)
+Bob wanted me to declare an array with strings and numbers. Then we learnt how to use the Array.Prototype.Filter() to filter out strings.
 
 ```
 // An array with strings and numbers.
