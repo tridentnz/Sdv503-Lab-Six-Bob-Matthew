@@ -10,11 +10,9 @@ function isNumber(arr) { // Checks array for invalid data types
 function isOdd(arr) { // Returns false if the array contains any strings or even numbers
 	for(let i = 0; i < arr.length; i++) {
 		if (arr[i] % 2 === 0) {
-			console.log("isOdd false");
 			return false;
 		}
 	}
-	console.log("isOdd true");
 	return true;
 }
 
