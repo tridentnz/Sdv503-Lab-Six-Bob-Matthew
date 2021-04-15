@@ -40,7 +40,7 @@ if (isNumber(input) && isOdd(input)) { // If data validation functions return tr
 }
 else console.log("Please input odd numbers.");
 ```
-This function passes the error handling functions as parameters to check the input of the array and stops invalid input.
+This if / else statement passes the error handling functions as parameters to check the input of the array and stops invalid input.
 
 Task two
 ========
